@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8"/>
+        <title>Show me the MONEY!!!</title>
+      </Helmet>
       <header className="App-header">
-        <title text= "Hello Tits"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
