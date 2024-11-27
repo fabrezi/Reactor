@@ -12,7 +12,8 @@ function App() {
       <div>
         <h1>THE COURTIER</h1>
       </div>
-      <img src={require('C:\Users\projects\Reactor\images\mogulinsuit.PNG')}/>
+      {/*<img src={require('C:\Users\projects\Reactor\images\mogulinsuit.PNG')}/>*/}
+      <h2>Fuck OFF</h2>
     </div>
   );
 }
